@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Admiravel mundo novo</h1>
+        <h3>Local: 2°A</h3>
+        <h3>Dia: --/--/----</h3>
+        
+           
+        <form action="https://api.sheetmonkey.io/form/nu8nCZUFDW7jjRRwcP1rJz" method="post">
+            <label for="name">
+                <span>Nome</span>
+                <input type="text" id="name" name="name">
+            </label>
+
+            <label>
+                <span>Turma</span>
+                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value);" />
+            </label>
+            <p>Total: R$0,00</p>
+
+
+
+        
+
+            <input type="submit" value="comprar">
+            
+
+          
+              </form>   
+
+    </main>
+
+    <section class="images">
+
+        <img src="assets/mobile.svg" alt="mobile">
+        <div class="circle"></div>
+    </section>
+
+    <script src="cep.js"></script>
+    
+</body>
+</html>
